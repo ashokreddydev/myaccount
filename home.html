@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Account</title>
+	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.15.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<!--
+    you can substitue the span of reauth email for a input with the email and
+    include the remember me checkbox
+    -->
+	
+	  <link href="css/custom.css" rel="stylesheet">
+	   <script src="js/home.js"></script>
+	   
+	    </head>
+  <body >
+  <a data-toggle="modal" href="#myModal" class="btn btn-primary">Adding</a>
+  <a data-toggle="modal" href="#myModal1" class="btn btn-primary">Amount Adding</a>
+  
+  
+  
+  <!-- popup adding-->
+  
+  	<div id="myModal" class="modal fade in">
+        <div class="modal-dialog">
+            <div class="modal-content">
+ 
+                <div class="modal-header">
+                    <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+                    <h4 class="modal-title text-center">Modal Heading</h4>
+                </div>
+                <div class="modal-body">
+					<div class="col-md-4">
+						<div class="form-group">
+						  <label for="usr">Purpose:</label>
+						  <input type="text" class="form-control" id="purpose">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+						  <label for="usr">Amount:</label>
+						  <input type="text" class="form-control" id="amount">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+						  <label for="usr">Date:</label>
+						  <input type="date" class="form-control" id="data" >
+						</div>
+					</div>
+					<button type="button" id="addingfunction" class="btn btn-primary center-block">ADD</button>
+                </div>
+                
+ 
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dalog -->
+    </div><!-- /.modal -->
+  
+  
+  
+  <!-- popup ending adding-->
+  
+   <!-- popup Amount adding-->
+  
+  	<div id="myModal1" class="modal fade in">
+        <div class="modal-dialog">
+            <div class="modal-content">
+ 
+                <div class="modal-header">
+                    <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+                    <h4 class="modal-title text-center">Modal Heading</h4>
+                </div>
+                <div class="modal-body">
+					<div class="col-md-4">
+						<div class="form-group">
+						  <label for="usr">Present Amount:</label>
+						  <input type="text" class="form-control" id="presentamount">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+						  <label for="usr">Date:</label>
+						  <input type="date" class="form-control" id="data1" >
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+						  <label for="usr">Adding:</label>
+						  <input type="text" class="form-control" id="adding_amount1">
+						</div>
+					</div>
+					<button type="button" id="adding_amount" class="btn btn-primary center-block">ADD</button>
+                </div>
+                
+ 
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dalog -->
+    </div><!-- /.modal -->
+  
+  
+  
+  <!-- popup ending Amount adding-->
+  
+  
+   <div class="wrapper" id="demo">
+      
+    </div>
+	 </body>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</html>
