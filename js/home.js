@@ -112,7 +112,7 @@ $("#adding_amount").click(function(){
 				  document.getElementById("presentamount").value=result[i].get("TotalAmount");
 			 }
 			
-			 document.getElementById("demo").innerHTML =table+"<tr><b><td data-label='Name'>Total</td> </b><td><tddata-label='Weight'>"+tot_amt+"</td><td></td><td>"+aa+"</td><td></td></table>";
+			 document.getElementById("demo").innerHTML =table+"<tr><b><td data-label='Total'>Total</td> </b><td><tddata-label='Weight'>"+tot_amt+"</td><td></td><td>"+aa+"</td><td></td></table>";
 
 
 
