@@ -102,7 +102,7 @@ $("#adding_amount").click(function(){
 			 for (var i=0;i<result.length;i++)
 			 {
 				 
-				 var td1='<tr><td data-label="Name">'+result[i].get("Purpose")+'</td><td data-label="Age">'+result[i].get("Amount")+'</td><td data-label="Weight">'+result[i].get("Date")+'</td><td data-label="Weight">'+result[i].get("TotalAmount")+'</td><td data-label="Weight">'+result[i].get("addingAmount")+'</td></tr>';
+				 var td1='<tr><td data-label="Purpose">'+result[i].get("Purpose")+'</td><td data-label="purchase Amount">'+result[i].get("Amount")+'</td><td data-label="Date">'+result[i].get("Date")+'</td><td data-label="Amount">'+result[i].get("TotalAmount")+'</td><td data-label="Adding Amount">'+result[i].get("addingAmount")+'</td></tr>';
 			table=table+td1;
 			var b = parseInt(result[i].get("Amount"))
 			var a = parseInt(result[i].get("TotalAmount"))
